@@ -2633,17 +2633,17 @@ input, select, textarea {
 			}
 
 		.image.main {
-			display: block;
-			margin: 4rem 0;
-			width: 100%;
-		}
-
-			.image.main:first-child {
-				margin-top: 0;
-			}
-
-			.image.main img {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				margin: 4rem 0;
 				width: 100%;
+			}
+			
+		.image.main img {
+				max-width: 40%; 
+				height: auto;
+				border-radius: 10%;
 			}
 
 		@media screen and (max-width: 736px) {
